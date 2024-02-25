@@ -15,6 +15,7 @@ export default function Index() {
 	return (
 		<div style={{ fontFamily: 'system-ui, sans-serif', lineHeight: '1.8' }}>
 			<h1>Welcome to Remix (with Vite and Cloudflare)</h1>
+			<CounterExample />
 			<ul>
 				<li>
 					<a
@@ -26,7 +27,6 @@ export default function Index() {
 					</a>
 				</li>
 				<li>
-					<CounterExample />
 					<a
 						target="_blank"
 						href="https://remix.run/docs"
