@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 export const CounterExample = () => {
 	const [count, setCount] = useState(0);
-	console.log('This is count:', count);
 
 	return (
 		<div>
